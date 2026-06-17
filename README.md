@@ -29,12 +29,18 @@ pip install nonebot-plugin-bili-query
 /取消订阅	  UID或空间链接	         取消订阅
 
 ## 示例
-/用户查询 123456
-/用户查询 https://space.bilibili.com/123456
-/视频查询 BV1xx411c7mD
-/订阅 123456
-/取消订阅 123456
+/用户查询 下面那个神秘数字
+
+/用户查询 https://space.bilibili.com/此处填写几个神秘数字
+
+/视频查询 此处填写BV号
+
+/订阅 那个神秘数字
+
+/取消订阅 那个神秘数字
+
 /help 滚木
+
 对的/help后面啥都没有
 
 ## 配置
