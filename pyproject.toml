@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nonebot-plugin-bili-query"
+version = "0.1.0"
+description = "芝士一个B站用户与视频查询插件，可支持订阅（视奸）用户更新并提醒"
+authors = [{name = "Wojusensei", email = "3442006415@qq.com"}]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "nonebot2>=2.3.0",
+    "nonebot-adapter-onebot>=2.0.0",
+    "nonebot-plugin-localstore>=0.5.0",
+    "bilibili-api-python>=17.0.0",
+    "nonebot-plugin-apscheduler>=0.3.0",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/Wojusensei/nonebot-plugin-bili-query"
+
+[tool.setuptools]
+packages = ["nonebot_plugin_bili_query"]
